@@ -1,0 +1,710 @@
+body {
+    max-height: 100vh;
+    max-width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #060608;
+    padding: 2rem 3rem 2rem 5rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3.5rem;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.stacks {
+    margin-right: 2rem;
+}
+
+.projects {
+    margin-right: 2rem;
+}
+
+.about-me {
+    margin-right: 2rem;
+}
+
+.contact-button {
+    border-style: none;
+    background-color: #23BE53;
+    border-radius: 20px;
+    width: 6rem;
+    height: 2.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.contact-button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* HOME */
+
+#home {
+    background-color: #060608;
+    height: calc(100vh - 135px);
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 135px);;
+}
+
+.left-container {
+    width: 50vw;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+
+.home-titulo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.barra {
+    font-weight: 500;
+    margin-right: .5rem;
+}
+
+.sub-titulo {
+    color: white;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+
+.nome {
+    color: #23BE53;
+    font-weight: 600;
+    font-size: 2.1875rem;
+    margin-bottom: 1rem;
+}
+
+.bem-vindo-texto {
+    color: #E7DFDD;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    line-height: 1.2rem;
+}
+
+.meu-cv {
+    width: 35%;
+    height: 2.5rem;
+    color: white;
+    background-color: #23BE53;
+    border-style: none;
+    border-radius: 5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.meu-cv:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.right-container {
+    width: 50vw;
+}
+
+.img-fundo {
+    max-width: 30%;
+    z-index: 0;
+    position: absolute;
+    left: 120vh;
+    bottom: 22vh;
+    transform: rotate(-30deg);
+}
+
+.html-logo {
+    position: absolute;
+    margin-left: 3vh;
+    margin-top: 3vh;
+}
+
+.css-logo {
+    position: absolute;
+    margin-left: 75vh;
+    margin-top: 6vh;
+}
+
+.home-imagem {
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 8vh;
+}
+
+.js-logo {
+    position: absolute;
+    margin-top: 58vh;
+    margin-left: 30vh;
+}
+
+/* STACKS */
+
+#stacks {
+    height: 100vh;
+    background-color: #161616;
+}
+
+.imagem-stack1 {
+    z-index: 0;
+    position: absolute;
+    max-width: 45%;
+    left: 1rem;
+    top: 115vh;
+}
+
+.imagem-stack2 {
+    z-index: 0;
+    position: absolute;
+    max-width: 45%;
+    right: 3rem;
+    top: 115vh;
+    transform: rotate(-195deg);
+}
+
+.container-redes-sociais {
+    background-color: #060608;
+    max-width: 20rem;
+    position: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    transform: translateY(-0.3rem);
+}
+
+.lista-redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.twitter-logo:hover {
+    cursor: pointer;
+    transform: rotate(10deg);
+    opacity: .9;
+}
+
+.linkedin-logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.linkedin-logo:hover {
+    cursor: pointer;
+    transform: rotate(10deg);
+    opacity: .9;
+}
+
+.github-logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.github-logo:hover {
+    cursor: pointer;
+    transform: rotate(-10deg);
+    opacity: .9;
+}
+
+.instagram-logo {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-left: 0.2rem;
+}
+
+.instagram-logo:hover {
+    cursor: pointer;
+    transform: rotate(-10deg);
+    opacity: .9;
+}
+
+.stacks-titulo {
+    color: white;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.container-html {
+    width: 20vw;
+    height: 45vh;
+    background-color: #060608;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8%;
+    position: absolute;
+    left: 10rem;
+    top: 56rem;
+    z-index: 2;
+}
+
+.container-js {
+    width: 20vw;
+    height: 45vh;
+    background-color: #060608;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8%;
+    position: absolute;
+    left: 30rem;
+    top: 53rem;
+    z-index: 2;
+}
+
+.container-css {
+    width: 20vw;
+    height: 45vh;
+    background-color: #060608;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8%;
+    position: absolute;
+    left: 50rem;
+    top: 56rem;
+    z-index: 2;
+}
+
+.html-logo-stack {
+    width: 82px;
+    height: 76px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.js-logo-stack {
+    width: 82px;
+    height: 76px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.css-logo-stack {
+    width: 82px;
+    height: 76px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.text-container-stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-trophy {
+    color: #23BE53;
+    margin-right: 1rem;
+}
+
+.fa-tasks {
+    color: #23BE53;
+    margin-right: 1rem;
+}
+
+.um-ano {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.dez-projetos {
+    color: white;
+}
+
+.barra-final {
+    width: 20vw;
+    height: 2rem;
+    background: #23BE53;
+    position: absolute;
+    margin-top: 41vh;
+    border-radius: 0 0 10px 10px;
+}
+
+/* PROJECTS */
+
+#projects {
+    height: 100vh;
+    background-color: #161616;
+}
+
+.imagem-project {
+    z-index: 0;
+    position: absolute;
+    max-width: 45%;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    transform: rotate(20deg);
+}
+
+.projects-titulo {
+    color: white;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.projetos {
+    display: grid;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.projeto1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 20vw;
+    height: 42vh;
+    background-color: #060608;
+    border-radius: 8%;
+    z-index: 2;
+}
+
+.projeto2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 20vw;
+    height: 42vh;
+    background-color: #060608;
+    border-radius: 8%;
+    z-index: 2;
+}
+
+.projeto3 {
+    grid-column: 3/3;
+    grid-row: 1/2;
+    width: 20vw;
+    height: 42vh;
+    background-color: #060608;
+    border-radius: 8%;
+    z-index: 2;
+}
+
+.projeto4 {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    width: 20vw;
+    height: 42vh;
+    background-color: #060608;
+    border-radius: 8%;
+    z-index: 2;
+}
+
+.projeto5 {
+    grid-column: 2/3;
+    grid-row: 2/2;
+    width: 20vw;
+    height: 42vh;
+    background-color: #060608;
+    border-radius: 8%;
+    z-index: 2;
+}
+
+.projeto6 {
+    grid-column: 3/3;
+    grid-row: 2/2;
+    width: 20vw;
+    height: 42vh;
+    background-color: #060608;
+    border-radius: 8%;
+    z-index: 2;
+}
+
+.enfeite-cores {
+    display: flex;
+}
+
+.amarelo {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: rgb(221, 221, 13);
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.vermelho {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: rgb(194, 9, 9);
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+
+.verde {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: rgb(15, 114, 15);
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+
+
+.img-projeto {
+    max-width: 90%;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-projeto {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    font-size: 15px;
+    color: #E7DFDD;
+}
+
+.texto-projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: .8rem;
+    font-weight: 300;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+    color: #E7DFDD;
+}
+
+.barra-final-projeto {
+    width: 100%;
+    height: 10%;
+    background: #23BE53;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.barra-final-projeto:hover {
+    cursor: pointer;
+    opacity: 0.9;
+} 
+
+.github-button {
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-height: 100%;
+    transform: translateY(3px);
+}
+
+/* ABOUT ME */
+
+#about-me {
+    height: calc(100vh - 74.25px);
+    background: #161616;
+}
+
+.imagem-about-me {
+    z-index: -1;
+    position: absolute;
+    max-width: 45%;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    transform: rotate(-20deg);
+}
+
+.titulo-about-me {
+    color: white;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    transform: translateY(2rem);
+}
+
+.container-about-me {
+    z-index: 2;
+    width: 60vw;
+    height: 60vh;
+    background: #060608;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh;
+    border-radius: 20px;
+}
+
+.about-me-left-side {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: 22vw;
+    margin-left: 3rem;
+}
+
+.nome-about-me {
+    color: #23BE53;
+    font-weight: 600;
+    font-size: 2.1875rem;
+    margin-bottom: 2rem;
+}
+
+.text-about-me {
+    color: #E7DFDD;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    line-height: 1.2rem;
+}
+
+.lista-about-me {
+    color: #E7DFDD;
+    line-height: 2rem;
+}
+
+.item-lista-about-me::before {
+    content: "•";
+    color: #23BE53;
+    display: inline-block;
+    width: 1em;
+}
+
+.about-me-right-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.js {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.html {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.css {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.barra-about-me {
+    width: 60.8%;
+    height: 7%;
+    background: #23BE53;
+    position: absolute;
+    border-radius: 0 0 20px 20px;
+    transform: translateY(11.04rem);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #060608;
+    padding: 0.5rem 3rem 0.5rem 5rem;
+    z-index: 2;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    max-width: 10rem;
+    margin-top: 0.5rem;
+}
+
+.twitter-footer {
+    width: 3rem;
+    height: 3rem;
+}
+
+.twitter-footer:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.linkedin-footer {
+    width: 3rem;
+    height: 3rem;
+}
+
+.linkedin-footer:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.github-footer {
+    width: 3rem;
+    height: 3rem;
+}
+
+.github-footer:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.insta-footer {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.2rem;
+    transform: translateY(-0.2rem);
+}
+
+.insta-footer:hover {
+    cursor: pointer;
+    opacity: .9;
+}
